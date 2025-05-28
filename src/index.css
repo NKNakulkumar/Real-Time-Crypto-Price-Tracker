@@ -1,0 +1,168 @@
+/* Base Styles */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  margin-top: 50px;
+}
+
+h1 {
+  position: sticky;
+  top: 0;
+  background-color: #fff; /* Prevent overlap/transparency */
+  padding: 10px 0;
+  margin: 0;
+  font-size: 2rem;
+  text-align: center;
+  z-index: 10; /* Make sure it's above table headers */
+  border-bottom: 1px solid #ddd;
+}
+
+
+.table-container {
+  overflow-x: auto;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  min-width: 600px;
+}
+
+thead tr {
+  background-color: #f5f5f5;
+  color: #333;
+  font-weight: bold;
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  min-width: 100px;
+}
+
+th:nth-child(2), td:nth-child(2) {
+  min-width: 150px;
+}
+
+tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+td {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+thead th {
+  position: sticky;
+  top: 0;
+  background-color: #f5f5f5;
+  z-index: 1;
+}
+
+/* Icon & Visuals */
+.star {
+  vertical-align: middle;
+  margin-right: 5px;
+  color: #666;
+  font-size: 1rem;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.icon div {
+  font-weight: 500;
+}
+
+.symbol {
+  color: #888;
+  font-size: 0.85rem;
+}
+
+.off {
+  color: #e63946;
+}
+
+.on {
+  color: #2a9d8f;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  th, td {
+    padding: 10px 12px;
+    font-size: 0.85rem;
+  }
+
+  .icon img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .symbol {
+    font-size: 0.75rem;
+  }
+
+  .star {
+    font-size: 0.95rem;
+  }
+}
+
+/* Mobile Responsive */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  th, td {
+    padding: 6px 8px;
+    font-size: 0.75rem;
+  }
+
+  .icon img {
+    width: 18px;
+    height: 18px;
+  }
+
+  .icon div {
+    font-size: 0.75rem;
+  }
+
+  .symbol {
+    font-size: 0.7rem;
+  }
+
+  .star {
+    font-size: 0.9rem;
+  }
+
+  table {
+    min-width: 100%;
+  }
+}
