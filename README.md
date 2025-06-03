@@ -27,6 +27,17 @@ A sleek and responsive web application that tracks real-time cryptocurrency pric
 
 ## 📦 Installation
 
+
+Install my-project with npm
+
+```bash
+  bun add my-project
+  cd my-project
+```
+    
+    bun install
+    bun  dev
+
 1. **Clone the repository**
    ```bash
    git clone https://github.com/yourusername/Real-Time-Crypto-Price-Tracker.git
