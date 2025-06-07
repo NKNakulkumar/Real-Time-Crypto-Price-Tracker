@@ -2,7 +2,7 @@
 
 A sleek and responsive web application that tracks real-time cryptocurrency prices with a clean table UI. Built with  React.js  this app displays updated crypto data in a user-friendly format optimized for both desktop and mobile devices.
 
-![Screenshot](https://hackernoon.imgix.net/hn-images/1*w7_gIYpMk0YP9XuRjxc7Pw.png?auto=format&fit=max&w=2048)
+![Screenshot](https://hackernoon.imgix.net/hn-images/1*w7_gIYpMk0YP9XuRjxc7Pw.png?auto=format&fit=max&w=2048) 
 
 ---
 
