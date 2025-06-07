@@ -20,6 +20,7 @@ A sleek and responsive web application that tracks real-time cryptocurrency pric
 
 - React.js
 - CSS3 (Responsive Design with Media Queries)
+- Tailwind CSS
 - [Optional: Crypto API like CoinGecko, CoinMarketCap, etc.]
 
 ---
