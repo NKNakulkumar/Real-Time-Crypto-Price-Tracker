@@ -16,7 +16,7 @@ A sleek and responsive web application that tracks real-time cryptocurrency pric
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Technologies Used 
 
 - React.js
 - CSS3 (Responsive Design with Media Queries)
