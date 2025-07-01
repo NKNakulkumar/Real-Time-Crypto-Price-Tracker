@@ -53,7 +53,7 @@ export const CryptoTracking = () => {
 
   return (
     <div className='container'>
-      <h1>Crypto Price Tracking App</h1>
+      <h1>Crypto Price Tracking App</h1> 
 
       {loading && <>Loading...</>}
       {error && <p style={{ color: 'red' }}>{error}</p>}
