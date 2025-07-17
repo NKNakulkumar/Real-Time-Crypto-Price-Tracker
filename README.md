@@ -28,7 +28,6 @@ A sleek and responsive web application that tracks real-time cryptocurrency pric
 
 ## 📦 Installation
 
-
 Install my-project with npm
 
 ```bash
